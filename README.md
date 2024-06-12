@@ -8,6 +8,8 @@ $ loadshift -help
 Usage of loadshift:
   -check-interval duration
         Interval to check host latency (default 10s)
+  -fallback string
+        Fallback host when all hosts failed (default "localhost:80")
   -hosts string
         Comma-separated list of host addresses (default "host1.example.com:80,host2.example.com:80")
   -port int
